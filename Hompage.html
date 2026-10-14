@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkillBridge | Home</title>
+<!--link rel="stylesheet" href="style.css"-->
+</head>
+<body>
+
+<header class="topbar">
+  <div class="logo">SkillBridge</div>
+  <label class="search">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#5B6770" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+    <input type="search" aria-label="Search" placeholder="Search skills, questions, people">
+  </label>
+  <div class="spacer"></div>
+  <button class="btn-outline">Log in / Sign up</button>
+</header>
+
+<div class="shell">
+
+  <nav class="side" aria-label="Main">
+    <a class="nav active" href="#">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-8 9 8v10h-6v-6H9v6H3z"/></svg>Home
+    </a>
+    <a class="nav" href="#">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.5-4 3-6 6.5-6s6 2 6.5 6M16 4.5a3.5 3.5 0 010 7M18 14.5c2 .6 3.2 2.5 3.5 5.5"/></svg>Community
+    </a>
+    <a class="nav" href="#">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c.8-4.5 4-7 8-7s7.2 2.5 8 7"/></svg>Profile
+    </a>
+    <a class="nav" href="#">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>Message
+    </a>
+    <div class="grow"></div>
+    <a class="nav" href="#">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>Setting
+    </a>
+  </nav>
+
+  <main class="feed">
+
+    <article class="post">
+      <div class="author">
+        <div class="avatar c1" aria-hidden="true">AR</div>
+        <button class="help">Offer help</button>
+      </div>
+      <div>
+        <a class="post-title" href="#">Hello world, automation trends [closed]</a>
+        <p>I'm new to the automation world, old to the code. Is blending with Python still a thing? I'm having no trouble getting a compiler to follow tasks, but I don't need renders to become a part of the workflow.</p>
+        <div class="tags"><span class="tag">python</span></div>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="author">
+        <div class="avatar c2" aria-hidden="true">KM</div>
+        <button class="help">Offer help</button>
+      </div>
+      <div>
+        <a class="post-title" href="#">Get browser address within plugin shortcode that uses REST API</a>
+        <p>I'm having the following problem in WordPress: I declare a global variable in functions.php, $current_page, from the server request URI, then I retrieve it inside a shortcode callback and it comes back empty.</p>
+        <div class="tags"><span class="tag">PHP</span><span class="tag">wordpress</span></div>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="author">
+        <div class="avatar c3" aria-hidden="true">NO</div>
+        <button class="help">Offer help</button>
+      </div>
+      <div>
+        <a class="post-title" href="#">What things about QNetworkAccessManager should I know?</a>
+        <p>I have a task to make a simple desktop app that connects to a device via network and lets the user change the color of an LED. I will show what I already done in main.cpp.</p>
+        <div class="tags"><span class="tag">C++</span></div>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="author">
+        <div class="avatar c4" aria-hidden="true">JT</div>
+        <button class="help">Offer help</button>
+      </div>
+      <div>
+        <a class="post-title" href="#">How to develop software features without showing them</a>
+        <p>I am looking for a way to add features or code without showing it as a branch on my git repository. For example, adding a system login on my website first, then releasing it later.</p>
+        <div class="tags"><span class="tag">git</span><span class="tag">github-actions</span></div>
+      </div>
+    </article>
+
+    <article class="post">
+      <div class="author">
+        <div class="avatar c5" aria-hidden="true">SB</div>
+        <button class="help">Offer help</button>
+      </div>
+      <div>
+        <a class="post-title" href="#">[Post title]</a>
+        <p>[Post preview text appears here]</p>
+        <div class="tags"><span class="tag">[tag]</span><span class="tag">[tag]</span></div>
+      </div>
+    </article>
+
+  </main>
+
+  <aside class="rail" aria-label="Skills">
+    <h2>Browse by skill</h2>
+    <div class="tags">
+      <a class="tag" href="#">python</a>
+      <a class="tag" href="#">PHP</a>
+      <a class="tag" href="#">wordpress</a>
+      <a class="tag" href="#">C++</a>
+      <a class="tag" href="#">git</a>
+      <a class="tag" href="#">github-actions</a>
+    </div>
+  </aside>
+
+</div>
+</body>
+</html>
